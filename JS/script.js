@@ -50,3 +50,8 @@ const typed = new Typed ('.multiple-text', {
   backDelay: 1000,
   loop: true,
 });
+/*==========loader======*/
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+  loader.style.display = "none";
+})
